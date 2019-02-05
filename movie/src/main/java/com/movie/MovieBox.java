@@ -71,11 +71,6 @@ public class MovieBox {
                     int movieType = s.nextInt();
                     MovieBox movieBOX = new MovieBox(cn, mn, buydate, movieType);
                     customerDetails.add(movieBOX);
-                    if(movieType == 1){
-                        System.out.println("");
-                        System.out.println("");
-                        System.out.println("");
-                    }
 
                     break;
 
